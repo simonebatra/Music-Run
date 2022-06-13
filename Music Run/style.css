@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.gameTitle {
+    width: 85%; 
+    height: 160px;
+}
+
+canvas {
+    display: block;
+}
+
+.greeting {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.customInput{
+    width: 200px;
+    height: 30px;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: transparent;
+    font-size: 20px;
+    outline: none;
+    color: white;
+    text-align: center;
+}
+
+.customButton{
+    width: 180px;
+    height: 50px;
+    background-color: blueviolet;
+    border: 3px solid white;
+    color: black;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    outline: none;
+}
